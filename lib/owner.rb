@@ -29,6 +29,12 @@ class Owner
     @pets[dogs] << dog
   end
 
+  def walk_dogs
+    @pets[dogs].each do |dog|
+      
+    end
+  end
+
   def self.all
     @@all
   end
