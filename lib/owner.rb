@@ -51,6 +51,7 @@ class Owner
     @pets.each do |type|
       type.each do |pet|
         pet.mood = "nervous" if pet.is_a?([Dog, Cat, Fish])
+      end
     end
   end
 
