@@ -49,6 +49,8 @@ class Owner
 
   def sell_pets
     @pets.each do |type|
+
+    end
   end
 
   def list_pets
